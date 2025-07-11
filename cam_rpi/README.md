@@ -77,3 +77,9 @@ The following parameters must be defined:
 - You can safely delete this file if not needed.
 
 ---
+
+#### Author  
+**Seowon Choi**  
+*Originally written on 11 July 2025*
+
+---
