@@ -54,17 +54,17 @@ def interactive_mode():
             print("Invalid input:", e)
 
 '''Uncomment this to run interactively'''
-# interactive_mode()
+#interactive_mode()
 
 '''Or run one test move directly'''
-# move_to_xy(10, 20)
+#move_to_xy(10, 20)
 
 '''
 This code is to move the gantry with absolute positioning over the wet tank
 '''
 import gclib
 
-# onstants — adjust if necessary based on our motor specs
+#constants — adjust if necessary based on our motor specs
 COUNTS_PER_MM = 2777.456  #make sure this matches the config in-lab
 
 def move_to_xy(x_mm, y_mm):
@@ -107,6 +107,6 @@ def interactive_mode():
         except Exception as e:
             print("invalid input:", e)
 
-# uncomment one of these to run it:
-# interactive_mode()
-# move_to_xy(10, 20)
+#uncomment one of these to run it:
+#interactive_mode()
+#move_to_xy(10, 20)
